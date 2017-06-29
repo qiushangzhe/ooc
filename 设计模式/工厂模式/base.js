@@ -1,4 +1,6 @@
-//当前所有的怪物
+/*
+    简单工厂模式
+*/
 var Footmen = function() {};
 Footmen.prototype.shout = function() {
     console.log("战争宣言:不是你死，就是我活");
